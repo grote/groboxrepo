@@ -1,0 +1,10 @@
+/config.py
+/unsigned/
+/repo/
+/archive/
+/logs/
+/tmp/
+/build
+/builder/
+*~
+*.pyc

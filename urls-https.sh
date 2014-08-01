@@ -1,0 +1,1 @@
+../t7-fdroiddata/tools/urls-https.sh
