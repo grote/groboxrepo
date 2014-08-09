@@ -13,6 +13,8 @@ THIS IS AN INSECURE TEST VERSION!!!
 You can use any phone number for testing.
 Don't enter private data!
 
+If something does not work after an upgrade, please go to settings, unregister from Push and register again.
+
 A secure text messaging application for Android.
 TextSecure is a replacement for the standard text messaging application, allowing you to send and receive text messages as normal
 Additionally, TextSecure provides the following Features:
@@ -41,7 +43,19 @@ Build:2.1.1b2,2112
     scandelete=library/libs/*
     buildjni=library
 
+Build:2.1.1b3,2113
+    commit=2.1.1b3
+    gradle=wstest
+    scandelete=library/libs/*
+    buildjni=library
+
+Build:2.1.2b1,2121
+    commit=2.1.2b1
+    gradle=wstest
+    scandelete=library/libs/*
+    buildjni=library
+
 Update Check Mode:None
-Current Version:2.1.1b2
-Current Version Code:2112
+Current Version:2.1.2b1
+Current Version Code:2121
 
