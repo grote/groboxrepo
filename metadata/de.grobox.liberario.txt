@@ -31,26 +31,30 @@ Repo:https://github.com/grote/Transportr.git
 Build:0.5beta1,7
     commit=b4fd5cdafba
     submodules=yes
-    prebuild=./pre-build.sh && rm -r sublibs/public-transport-enabler/enabler/target
-	gradle=yes
+    gradle=yes
+    prebuild=./pre-build.sh && \
+        rm -r sublibs/public-transport-enabler/enabler/target
 
 Build:0.5beta2,8
     commit=da600c3e
     submodules=yes
-    prebuild=./pre-build.sh && rm -r sublibs/public-transport-enabler/enabler/target
-	gradle=yes
+    gradle=yes
+    prebuild=./pre-build.sh && \
+        rm -r sublibs/public-transport-enabler/enabler/target
 
 Build:0.5,9
     commit=0.5
     submodules=yes
-    prebuild=./pre-build.sh && rm -r sublibs/public-transport-enabler/enabler/target
-	gradle=yes
+    gradle=yes
+    prebuild=./pre-build.sh && \
+        rm -r sublibs/public-transport-enabler/enabler/target
 
 Build:0.5.1,10
     commit=0.5.1
     submodules=yes
-    prebuild=./pre-build.sh && rm -r sublibs/public-transport-enabler/enabler/target
-	gradle=yes
+    gradle=yes
+    prebuild=./pre-build.sh && \
+        rm -r sublibs/public-transport-enabler/enabler/target
 
 Build:0.6,15
     commit=0.6
@@ -69,20 +73,20 @@ Build:0.6.1,16
 Build:1.0.0-beta1,17
     commit=fb0a26d562
     submodules=yes
+    gradle=yes
     prebuild=./pre-build.sh
-	gradle=yes
 
 Build:1.0.0-beta2,18
     commit=2f3522a1
     submodules=yes
+    gradle=yes
     prebuild=./pre-build.sh
-	gradle=yes
 
 Build:1.0.0-beta3,19
     commit=2578f2d4
     submodules=yes
+    gradle=yes
     prebuild=./pre-build.sh
-	gradle=yes
 
 Build:1.0.0-rc1,20
     commit=dce9270a4
@@ -168,8 +172,19 @@ Build:1.1.1,33
     gradle=yes
     prebuild=./pre-build.sh
 
+Build:1.1.2-alpha1,34
+    commit=ccc0386
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
+Build:1.1.2-beta1,35
+    commit=b8e29cb
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
 Current Version:1.1.1
 Current Version Code:33
-
