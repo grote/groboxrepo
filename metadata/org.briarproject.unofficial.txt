@@ -10,7 +10,7 @@ Summary:Darknet Social Network
 Description:
 WARNING: This is an unofficial alpha version that is not secure and might break with every update.
 
-When an update kills your database, say that you forget your password to create a fresh database.
+When an update kills your database, say that you forgot your password to create a fresh database.
 
 Briar is a messaging app designed for activists, journalists,
 and anyone else who needs a safe, easy and robust way to communicate.
@@ -35,8 +35,19 @@ Build:0.12-alpha1,121
 	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
 		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml
 
+Build:0.12-alpha2,122
+    commit=e96838e7
+	scanignore=briar-desktop/libs
+	subdir=briar-android
+	gradle=yes
+	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:0.12-alpha1
-Current Version Code:121
+Current Version:0.12-alpha2
+Current Version Code:122
 
