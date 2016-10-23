@@ -194,7 +194,37 @@ Build:1.1.2,36
     gradle=yes
     prebuild=./pre-build.sh
 
+Build:1.1.3,38
+    commit=1.1.3
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
+Build:1.1.4-rc1,39
+    commit=3bb0897
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
+Build:1.1.4,40
+    commit=1.1.4
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
+Build:1.1.5-beta1,41
+    commit=4e382ee
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
+Build:1.1.5,42
+    commit=1.1.5
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:1.1.2
-Current Version Code:36
+Current Version:1.1.5
+Current Version Code:42
