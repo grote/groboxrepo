@@ -176,8 +176,32 @@ Build:0.12-alpha13,1213
 		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
 		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
 
+Build:0.12-alpha14,1214
+    commit=e84d1c5
+	scanignore=briar-desktop/libs
+	subdir=briar-android
+	gradle=yes
+	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
+		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
+
+Build:0.12-alpha15-BREAK,1215
+    commit=238ff5d
+	scanignore=briar-desktop/libs
+	subdir=briar-android
+	gradle=yes
+	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
+		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:0.12-alpha13
-Current Version Code:1213
+Current Version:0.12-alpha15
+Current Version Code:1215
 
