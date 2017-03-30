@@ -6,6 +6,9 @@
 /tmp/
 /build
 /builder/
+fdroid-icon.png
+srclibs
+hooks
 *~
 *.pyc
 .fdroid.keypass.txt
