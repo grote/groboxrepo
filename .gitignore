@@ -8,3 +8,5 @@
 /builder/
 *~
 *.pyc
+.fdroid.keypass.txt
+.fdroid.keystorepass.txt

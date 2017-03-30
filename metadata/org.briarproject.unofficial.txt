@@ -200,8 +200,64 @@ Build:0.12-alpha15-BREAK,1215
 		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
 		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
 
+Build:0.13-alpha1-BREAK,1301
+    commit=58db089
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
+Build:0.13-alpha2,1302
+    commit=795f71c
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
+Build:0.13-alpha3,1303
+    commit=6edaf98
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
+Build:0.13-alpha4,1304
+    commit=13d55c0
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
+Build:0.13-alpha5,1305
+    commit=61677de
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:0.12-alpha15
-Current Version Code:1215
+Current Version:0.13-alpha5
+Current Version Code:1305
 
