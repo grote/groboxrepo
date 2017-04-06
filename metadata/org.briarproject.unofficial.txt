@@ -246,7 +246,7 @@ Build:0.13-alpha4,1304
 		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
 
 Build:0.13-alpha5,1305
-    commit=61677de
+    commit=0ab0f2b
 	scanignore=bramble-j2se/libs
 	subdir=briar-android
 	gradle=yes
