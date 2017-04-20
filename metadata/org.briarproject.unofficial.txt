@@ -25,215 +25,6 @@ Repo Type:git
 #Repo:https://code.briarproject.org/akwizgran/briar.git
 Repo:https://code.briarproject.org/grote/briar.git
 
-Build:0.12-alpha1,121
-    commit=bba70836
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml
-
-Build:0.12-alpha2,122
-    commit=e96838e7
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml
-
-Build:0.12-alpha3,123
-    commit=94927c2f
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml
-
-Build:0.12-alpha4,124
-    commit=89469f9d
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml
-
-Build:0.12-alpha5,125
-    commit=ddbac369
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml
-
-Build:0.12-alpha6,126
-    commit=04d2ede
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha7,127
-    commit=44d13ef2
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha8,128
-    commit=b56fa623
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha9,129
-    commit=77b215a5
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha10-BREAK,1210
-    commit=cc439aa7
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha11,1211
-    commit=a30de630
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha12,1212
-    commit=1c55fae
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha13,1213
-    commit=b327122
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha14,1214
-    commit=e84d1c5
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.12-alpha15-BREAK,1215
-    commit=238ff5d
-	scanignore=briar-desktop/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { buildTypes { release { applicationIdSuffix ".unofficial" } } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' res/values/strings.xml && \
-		 sed -i 's@org.briarproject@org.briarproject.unofficial@' build.gradle
-
-Build:0.13-alpha1-BREAK,1301
-    commit=58db089
-	scanignore=bramble-j2se/libs
-	subdir=briar-android
-	gradle=yes
-	prebuild=echo 'android { lintOptions { checkReleaseBuilds false } }' >> build.gradle
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
-		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
-
-Build:0.13-alpha2,1302
-    commit=795f71c
-	scanignore=bramble-j2se/libs
-	subdir=briar-android
-	gradle=yes
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
-		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
-
-Build:0.13-alpha3,1303
-    commit=6edaf98
-	scanignore=bramble-j2se/libs
-	subdir=briar-android
-	gradle=yes
-	forceversion=yes
-	forcevercode=yes
-	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
-		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
-		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
-
 Build:0.13-alpha4,1304
     commit=13d55c0
 	scanignore=bramble-j2se/libs
@@ -256,8 +47,19 @@ Build:0.13-alpha5,1305
 		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
 		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
 
+Build:0.13-alpha6-BREAK,1306
+    commit=de37355
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:0.13-alpha5
-Current Version Code:1305
+Current Version:0.13-alpha6-BREAK
+Current Version Code:1306
 
