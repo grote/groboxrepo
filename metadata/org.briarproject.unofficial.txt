@@ -58,8 +58,19 @@ Build:0.13-alpha6-BREAK,1306
 		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
 		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
 
+Build:0.13-alpha7,1307
+    commit=ccd552a
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:0.13-alpha6-BREAK
-Current Version Code:1306
+Current Version:0.13-alpha7
+Current Version Code:1307
 
