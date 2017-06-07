@@ -80,8 +80,19 @@ Build:0.13-alpha8,1308
 		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
 		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
 
+Build:0.14-alpha1,1401
+    commit=5dbacb4
+	scanignore=bramble-j2se/libs
+	subdir=briar-android
+	gradle=yes
+	forceversion=yes
+	forcevercode=yes
+	init=echo 'android { defaultConfig { applicationId "org.briarproject.unofficial" } }' >> build.gradle && \
+		 sed -i 's@name="app_name">Briar<@name="app_name">Briar Unofficial<@' src/main/res/values/strings.xml && \
+		 sed -i 's@org.briarproject.briar@org.briarproject.unofficial@' build.gradle
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:0.13-alpha8
-Current Version Code:1308
+Current Version:0.14-alpha1
+Current Version Code:1401
 
