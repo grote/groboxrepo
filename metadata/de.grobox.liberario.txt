@@ -260,6 +260,12 @@ Build:1.1.8,48
     gradle=yes
     prebuild=./pre-build.sh
 
+Build:1.1.9,49
+    commit=1.1.9
+    submodules=yes
+    gradle=yes
+    prebuild=./pre-build.sh
+
 Build:2.0.0-preview1,100
     commit=c605ca4ddb
 	subdir=app
@@ -289,7 +295,25 @@ Build:2.0.0-beta2,103
     gradle=yes
 	gradleprops=buildServer
 
+Build:2.0.0-beta3,104
+    commit=d969902
+	subdir=app
+    gradle=yes
+	gradleprops=buildServer
+
+Build:2.0.0-rc1,105
+    commit=c40d3cc
+	subdir=app
+    gradle=yes
+	gradleprops=buildServer
+
+Build:2.0.0-rc2,106
+    commit=98a16af
+	subdir=app
+    gradle=yes
+	gradleprops=buildServer
+
 Auto Update Mode:Version %v
 Update Check Mode:Tags
-Current Version:2.0.0-beta2
-Current Version Code:103
+Current Version:2.0.0-rc2
+Current Version Code:106
