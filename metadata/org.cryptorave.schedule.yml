@@ -1,0 +1,19 @@
+Categories:
+  - Navigation
+License: Apache2
+AuthorName: Torsten Grote
+WebSite: https://cryptorave.org
+SourceCode: https://github.com/grote/EventFahrplan
+IssueTracker: https://github.com/grote/EventFahrplan/issues
+Donate: https://www.catarse.me/pt/cryptorave2019
+Bitcoin: 1K35RGQPCWX3nght23Jetym1WVe2BU14Vu
+
+Summary: Programação da Cryptorave em São Paulo
+Description: A CryptoRave é aberta e gratuita e será realizada na cidade de São Paulo.
+    Inspirada em uma ação global, descentralizada para disseminar e democratizar o
+    conhecimento e conceitos básicos de criptografia e software livre, o evento teve
+    início em 2014, como reação à divulgação de informações que confirmaram a ação
+    de governos para manter a população mundial sob vigilância e monitoramento constante.
+
+AutoUpdateMode: None
+UpdateCheckMode: Tags
