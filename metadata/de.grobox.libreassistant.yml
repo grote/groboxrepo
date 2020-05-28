@@ -1,0 +1,38 @@
+Categories:
+  - Connectivity
+  - Development
+  - Internet
+License: Apache-2.0
+SourceCode: https://gitlab.com/grote/libre-assistant
+IssueTracker: https://gitlab.com/grote/libre-assistant/issues
+WebSite: https://www.home-assistant.io
+Changelog: https://github.com/home-assistant/android/releases
+Summary: Fork of the official Home Assistant app
+Description: |-
+  This fork of the official Home Assistant companion app
+  removes all non-free code and dependencies from the app
+  making it Free Software.
+
+  No additional functionality is added
+  and at present, the missing functionality is not replaced
+  with free alternatives.
+
+RepoType: git
+Repo: https://gitlab.com/grote/libre-assistant.git
+
+Builds:
+  - versionName: 1.9.0-167
+    versionCode: 167
+    commit: libre-1.9.0
+    subdir: app
+    gradle:
+      - libre
+
+MaintainerNotes: |-
+  AutoUpdateMode does not work,
+  because checkupdates doesn't find the package name and version code of the libre flavor.
+
+AutoUpdateMode: Version libre-%v
+UpdateCheckMode: None
+CurrentVersion: 1.9.0-167
+CurrentVersionCode: 167
