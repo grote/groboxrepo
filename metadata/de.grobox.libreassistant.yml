@@ -16,6 +16,11 @@ Description: |-
   No additional functionality is added
   and at present, the missing functionality is not replaced
   with free alternatives.
+  
+  Removed non-free functionality:
+  * Push messages with Firebase (FCM/GCM)
+  * Location Tracking with Play Services (could be replaced)
+  * Translations with Lokalise SDK
 
 RepoType: git
 Repo: https://gitlab.com/grote/libre-assistant.git
