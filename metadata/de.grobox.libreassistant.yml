@@ -3,24 +3,25 @@ Categories:
   - Development
   - Internet
 License: Apache-2.0
+WebSite: https://www.home-assistant.io
 SourceCode: https://gitlab.com/grote/libre-assistant
 IssueTracker: https://gitlab.com/grote/libre-assistant/issues
-WebSite: https://www.home-assistant.io
 Changelog: https://github.com/home-assistant/android/releases
+
 Summary: Fork of the official Home Assistant app
 Description: |-
-  This fork of the official Home Assistant companion app
-  removes all non-free code and dependencies from the app
-  making it Free Software.
+    This fork of the official Home Assistant companion app
+    removes all non-free code and dependencies from the app
+    making it Free Software.
 
-  No additional functionality is added
-  and at present, the missing functionality is not replaced
-  with free alternatives.
-  
-  Removed non-free functionality:
-  * Push messages with Firebase (FCM/GCM)
-  * Location Tracking with Play Services (could be replaced)
-  * Translations with Lokalise SDK
+    No additional functionality is added
+    and at present, the missing functionality is not replaced
+    with free alternatives.
+
+    Removed non-free functionality:
+    * Push messages with Firebase (FCM/GCM)
+    * Location Tracking with Play Services (could be replaced)
+    * Translations with Lokalise SDK
 
 RepoType: git
 Repo: https://gitlab.com/grote/libre-assistant.git
@@ -33,11 +34,20 @@ Builds:
     gradle:
       - libre
 
+  - versionName: 1.11.1-215
+    versionCode: 215
+    commit: libre-1.11.1
+    subdir: app
+    gradle:
+      - libre
+    scandelete:
+      - buildSrc
+
 MaintainerNotes: |-
-  AutoUpdateMode does not work,
-  because checkupdates doesn't find the package name and version code of the libre flavor.
+    AutoUpdateMode does not work,
+    because checkupdates doesn't find the package name and version code of the libre flavor.
 
 AutoUpdateMode: Version libre-%v
 UpdateCheckMode: None
-CurrentVersion: 1.9.0-167
-CurrentVersionCode: 167
+CurrentVersion: 1.11.1-215
+CurrentVersionCode: 215
