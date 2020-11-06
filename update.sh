@@ -1,1 +1,1 @@
-fdroid build --all -v && fdroid publish -v && fdroid update -v && fdroid server update -v
+fdroid build --all -v && fdroid publish -v && fdroid update -v && fdroid deploy -v

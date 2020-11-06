@@ -1,0 +1,24 @@
+Categories:
+  - System
+License: GPLv3+
+SourceCode: https://gitlab.com/grote/storage-backup-tester/
+IssueTracker: https://gitlab.com/grote/storage-backup-tester/-/issues
+
+Name: Storage Backup Tester
+Summary: Help test storage backups
+Description: |-
+    An app to test upcoming Seedvault storage backups.
+    You can use it to simulate a backup.
+    Your files won't be changed and not uploaded anywhere.
+    This is just to test code for a future real backup.
+    By testing you can make sure that *your* backups will work.
+      
+    Please come back to this app from time to time
+    and run a backup again to see if it correctly identifies
+    files that were added/changed.
+      
+    Thanks for testing!
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+CurrentVersionCode: 3

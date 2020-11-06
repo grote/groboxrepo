@@ -1,0 +1,502 @@
+Categories:
+  - Navigation
+License: GPLv3+
+AuthorName: Torsten Grote
+WebSite: https://transportr.grobox.de/?utm_source=fdroid
+SourceCode: https://github.com/grote/Transportr
+IssueTracker: https://github.com/grote/Transportr/issues
+Changelog: https://github.com/grote/Transportr/releases
+Donate: https://transportr.grobox.de/?utm_source=fdroid#donate
+FlattrID: '1921242'
+LiberapayID: '34751'
+Bitcoin: 12JaQp8zfqRb83JfSwVjH4rZWsZnWRPoyG
+
+AutoName: Transportr
+Summary: Public Transport Companion
+Description: |-
+    The public transport companion that respects your privacy and your freedom.
+    Transportr is a non-profit app developed by people around the world to make
+    using public transport as easy as possible wherever you are.
+
+    Currently, it works best in Europe, but also supports many places world-wide. If
+    you live in an unsupported area, consider adding it to Transportr.
+
+    It finds directions from your home, your current position or a given station to
+    wherever you want to go. You can also save entire trips as favorites and find
+    next trips with one click.
+
+    Discover nearby stations and show upcoming departures including the delays (if
+    there are any).
+
+    [https://github.com/grote/Transportr/blob/master/README.md#screenshots
+    Screenshots]
+
+RepoType: git
+Repo: https://github.com/grote/Transportr.git
+
+Builds:
+  - versionName: 0.5beta1
+    versionCode: 7
+    commit: b4fd5cdafba
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - ./pre-build.sh
+      - rm -r sublibs/public-transport-enabler/enabler/target
+
+  - versionName: 0.5beta2
+    versionCode: 8
+    commit: da600c3e
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - ./pre-build.sh
+      - rm -r sublibs/public-transport-enabler/enabler/target
+
+  - versionName: '0.5'
+    versionCode: 9
+    commit: '0.5'
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - ./pre-build.sh
+      - rm -r sublibs/public-transport-enabler/enabler/target
+
+  - versionName: 0.5.1
+    versionCode: 10
+    commit: 0.5.1
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - ./pre-build.sh
+      - rm -r sublibs/public-transport-enabler/enabler/target
+
+  - versionName: '0.6'
+    versionCode: 15
+    commit: '0.6'
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - ./pre-build.sh
+      - rm -r sublibs/public-transport-enabler/enabler/target
+
+  - versionName: 0.6.1
+    versionCode: 16
+    commit: 0.6.1
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - ./pre-build.sh
+      - rm -r sublibs/public-transport-enabler/enabler/target
+
+  - versionName: 1.0.0-beta1
+    versionCode: 17
+    commit: fb0a26d562
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.0-beta2
+    versionCode: 18
+    commit: 2f3522a1
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.0-beta3
+    versionCode: 19
+    commit: 2578f2d4
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.0-rc1
+    versionCode: 20
+    commit: dce9270a4
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.0
+    versionCode: 21
+    commit: 1.0.0
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.1
+    versionCode: 22
+    commit: 1.0.1
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.2
+    versionCode: 23
+    commit: 1.0.2
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.3
+    versionCode: 24
+    commit: 1.0.3
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.4
+    versionCode: 25
+    commit: 1.0.4
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.5
+    versionCode: 26
+    commit: 1.0.5
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.0.6
+    versionCode: 27
+    commit: 1.0.6
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.0-pre1
+    versionCode: 28
+    commit: a341d02
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.0-pre2
+    versionCode: 29
+    commit: 6d707bb
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.0
+    versionCode: 30
+    commit: 1.1.0
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.1-rc1
+    versionCode: 31
+    commit: 995f8f0d
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.1-rc2
+    versionCode: 32
+    commit: 3affc396f
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.1
+    versionCode: 33
+    commit: 1.1.1
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.2-alpha1
+    versionCode: 34
+    commit: ccc0386
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.2-beta1
+    versionCode: 35
+    commit: b8e29cb
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.2
+    versionCode: 36
+    commit: 1.1.2
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.3
+    versionCode: 38
+    commit: 1.1.3
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.4-rc1
+    versionCode: 39
+    commit: 3bb0897
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.4
+    versionCode: 40
+    commit: 1.1.4
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.5-beta1
+    versionCode: 41
+    commit: 4e382ee
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.5
+    versionCode: 42
+    commit: 1.1.5
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.6-beta1
+    versionCode: 43
+    commit: 571996f
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.6-beta2
+    versionCode: 44
+    commit: 6199df7
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.6
+    versionCode: 45
+    commit: 1.1.6
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.7-beta1
+    versionCode: 46
+    commit: cd9f819
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.7
+    versionCode: 47
+    commit: 1.1.7
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.8
+    versionCode: 48
+    commit: 1.1.8
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 1.1.9
+    versionCode: 49
+    commit: 1.1.9
+    submodules: true
+    gradle:
+      - yes
+    prebuild: ./pre-build.sh
+
+  - versionName: 2.0.0-preview1
+    versionCode: 100
+    commit: c605ca4ddb
+    subdir: app
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - cd ..
+      - ./pre-build.sh
+
+  - versionName: 2.0.0-preview2
+    versionCode: 101
+    commit: c60772ba95
+    subdir: app
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - cd ..
+      - ./pre-build.sh
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.0-beta1
+    versionCode: 102
+    commit: b54ceb4a1
+    subdir: app
+    submodules: true
+    gradle:
+      - yes
+    prebuild:
+      - cd ..
+      - ./pre-build.sh
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.0-beta2
+    versionCode: 103
+    commit: b55dba116
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.0-beta3
+    versionCode: 104
+    commit: d969902
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.0-rc1
+    versionCode: 105
+    commit: c40d3cc
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.0-rc2
+    versionCode: 106
+    commit: 98a16af
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.0-rc3
+    versionCode: 107
+    commit: fa10320
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.0
+    versionCode: 108
+    commit: 2.0.0
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.1
+    versionCode: 109
+    commit: 2.0.1
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.2
+    versionCode: 111
+    commit: 2.0.2
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.3
+    versionCode: 112
+    commit: 2.0.3
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.4
+    versionCode: 113
+    commit: 2.0.4
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.5
+    versionCode: 114
+    commit: 2.0.5
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+  - versionName: 2.0.6
+    versionCode: 115
+    commit: 2.0.6
+    subdir: app
+    gradle:
+      - yes
+    gradleprops:
+      - buildServer
+
+AutoUpdateMode: Version %v
+UpdateCheckMode: Tags
+CurrentVersion: 2.1.0
+CurrentVersionCode: 118
